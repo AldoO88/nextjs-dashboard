@@ -4,7 +4,6 @@ export default function Layout (
 {
   return (
     <section>
-      Esto es el layout de invoices
       {children}
     </section>
   )
