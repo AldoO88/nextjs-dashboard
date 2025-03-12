@@ -7,8 +7,6 @@ import { lusitana } from "../ui/fonts"
 import { CardSkeleton, LatestInvoicesSkeleton, RevenueChartSkeleton } from "../ui/skeletons";
 
 export default async function Page() {
-
-  const { totalPaidInvoices, numberOfCustomers, numberOfInvoices, totalPendingInvoices } = await fetchCardData();
  
   return (
   <main>
