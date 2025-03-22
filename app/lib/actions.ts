@@ -3,7 +3,6 @@
 // Marcar que todas las funciones que se exportan en este archivo son de servidor y por lo tanto no se ejecutan ni se envian al cliente
 
 import { z } from 'zod'
-import { Invoice } from './definitions'
 import postgres from 'postgres'
 import { revalidatePath } from 'next/cache';
 import { redirect } from 'next/navigation'
